@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #060912;
+  --accent-cyan: #00e5ff;
+  --accent-purple: #7c3aed;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: #dbe5ff;
+  font-family: 'Inter', system-ui, sans-serif;
+  margin: 0;
+}
+
+/* Dot grid background */
+.dot-grid {
+  background-image: radial-gradient(rgba(148,168,255,0.15) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+/* Glow effects */
+.glow-cyan { box-shadow: 0 0 24px rgba(0,229,255,0.25); }
+.glow-purple { box-shadow: 0 0 24px rgba(124,58,237,0.25); }
+
+/* Glass card */
+.glass {
+  background: rgba(11,16,31,0.6);
+  border: 1px solid rgba(144,173,255,0.18);
+  backdrop-filter: blur(16px);
+}
+
+/* Gradient text */
+.grad-text {
+  background: linear-gradient(120deg, #00e5ff, #7c3aed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Award badge */
+.award-badge {
+  display: inline-block;
+  font-size: 0.68rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  background: linear-gradient(120deg, #f59e0b, #ef4444);
+  color: #fff;
+  font-weight: 700;
+  vertical-align: middle;
+  margin-left: 0.4rem;
+}
+
+.scholarship-badge {
+  display: inline-block;
+  font-size: 0.68rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  background: linear-gradient(120deg, #00e5ff, #7c3aed);
+  color: #fff;
+  font-weight: 700;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #060912; }
+::-webkit-scrollbar-thumb { background: rgba(124,58,237,0.5); border-radius: 3px; }
