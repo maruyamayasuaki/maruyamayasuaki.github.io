@@ -1,0 +1,98 @@
+.brutal {
+  --ink: #0a0a0a;
+  --paper: #f5f4ee;
+  --rule: #0a0a0a;
+  --link: #0033cc;
+  --visited: #551a8b;
+  --accent: #c8102e;
+
+  background: var(--paper);
+  color: var(--ink);
+  font-family: ui-monospace, "SFMono-Regular", "JetBrains Mono", "Fira Mono", "Geist Mono", monospace;
+  font-size: 15px;
+  line-height: 1.55;
+  font-feature-settings: "ss01", "zero";
+}
+
+.brutal a { color: var(--link); text-underline-offset: 3px; }
+.brutal a:visited { color: var(--visited); }
+.brutal a:hover { background: var(--ink); color: var(--paper); text-decoration: none; }
+
+.brutal h1 {
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+  margin: 0 0 0.4em;
+}
+.brutal h2 {
+  font-size: 1.05rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin: 2.5rem 0 0.6rem;
+  border-top: 2px solid var(--rule);
+  padding-top: 0.6rem;
+}
+.brutal h3 {
+  font-size: 0.95rem;
+  margin: 1.4rem 0 0.3rem;
+  font-weight: 700;
+}
+
+.brutal hr { border: 0; border-top: 1px solid var(--rule); margin: 1.2rem 0; }
+.brutal mark { background: var(--accent); color: var(--paper); padding: 0 4px; }
+.brutal code { background: rgba(0,0,0,0.07); padding: 1px 4px; border-radius: 0; }
+.brutal kbd {
+  border: 1px solid var(--ink);
+  padding: 0 5px;
+  font-size: 0.85em;
+  background: var(--paper);
+}
+
+.brutal-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+@media (min-width: 768px) {
+  .brutal-grid { grid-template-columns: 220px 1fr; gap: 2.5rem; }
+}
+
+.brutal-toc { position: sticky; top: 1rem; align-self: start; font-size: 0.85rem; }
+.brutal-toc ol { padding-left: 1.2rem; margin: 0.5rem 0 0; }
+.brutal-toc li { margin-bottom: 0.2rem; }
+
+.brutal-tag {
+  display: inline-block;
+  padding: 0 6px;
+  border: 1px solid var(--ink);
+  font-size: 0.78em;
+  margin: 0 4px 4px 0;
+  white-space: nowrap;
+}
+
+.brutal-meta { color: #555; font-size: 0.85em; }
+
+.brutal table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+  margin: 0.6rem 0;
+}
+.brutal th, .brutal td {
+  border: 1px solid var(--ink);
+  padding: 4px 8px;
+  text-align: left;
+  vertical-align: top;
+}
+.brutal th { background: var(--ink); color: var(--paper); font-weight: 700; }
+
+.brutal-footnotes { font-size: 0.85em; color: #333; margin-top: 3rem; }
+.brutal-footnotes ol { padding-left: 1.4rem; }
+
+@media print {
+  .brutal { background: #fff; color: #000; }
+  .brutal a { color: #000; text-decoration: underline; }
+  .brutal a:hover { background: transparent; color: #000; }
+  .brutal h2 { border-top: 1px solid #000; }
+  nav, .no-print { display: none !important; }
+}

@@ -155,8 +155,13 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="text-center py-8 text-xs text-slate-600 border-t border-slate-800">
-        © 2025 Yasuaki Maruyama · Built with Next.js + TypeScript
+      <footer className="text-center py-8 text-xs text-slate-600 border-t border-slate-800 space-y-2">
+        <div>© 2025 Yasuaki Maruyama · Built with Next.js + TypeScript</div>
+        <div>
+          <a href="/variants" className="text-slate-500 hover:text-cyan-400 transition-colors">
+            ⌥ Design Variants (preview 5 candidates) →
+          </a>
+        </div>
       </footer>
     </>
   );

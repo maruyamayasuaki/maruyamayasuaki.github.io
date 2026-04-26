@@ -1,0 +1,33 @@
+/* Force Shiki output to fill the editor area */
+.ide-shiki pre {
+  margin: 0;
+  padding: 1rem 1rem 1rem 0;
+  background: transparent !important;
+  min-height: 100%;
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+}
+.ide-shiki pre code {
+  display: block;
+  counter-reset: line;
+  padding-right: 1rem;
+}
+.ide-shiki .line {
+  display: block;
+  position: relative;
+  padding-left: 4rem;
+  min-height: 1.5em;
+}
+.ide-shiki .line::before {
+  counter-increment: line;
+  content: counter(line);
+  position: absolute;
+  left: 0;
+  width: 3rem;
+  text-align: right;
+  color: rgba(133, 153, 184, 0.45);
+  user-select: none;
+  font-size: 0.8em;
+}
+.ide-shiki .line:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
