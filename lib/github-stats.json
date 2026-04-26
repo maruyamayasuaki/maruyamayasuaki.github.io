@@ -1,0 +1,107 @@
+{
+  "generatedAt": "2026-04-26T04:25:24.216Z",
+  "user": {
+    "login": "maruyamayasuaki",
+    "name": "marky",
+    "bio": null,
+    "publicRepos": 17,
+    "followers": 1,
+    "following": 5,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/143987589?v=4",
+    "htmlUrl": "https://github.com/maruyamayasuaki"
+  },
+  "totals": {
+    "stars": 7,
+    "repos": 9
+  },
+  "languages": {
+    "Jupyter Notebook": 543156,
+    "Kotlin": 42173,
+    "TypeScript": 34101,
+    "Python": 13216,
+    "CSS": 1582,
+    "JavaScript": 559
+  },
+  "featured": [
+    {
+      "name": "maruyamayasuaki.github.io",
+      "description": null,
+      "url": "https://github.com/maruyamayasuaki/maruyamayasuaki.github.io",
+      "stars": 1,
+      "forks": 0,
+      "language": "TypeScript",
+      "updated": "2026-04-26T02:49:40Z",
+      "topics": []
+    },
+    {
+      "name": "maruyamayasuaki",
+      "description": null,
+      "url": "https://github.com/maruyamayasuaki/maruyamayasuaki",
+      "stars": 1,
+      "forks": 0,
+      "language": null,
+      "updated": "2026-04-10T05:09:08Z",
+      "topics": []
+    },
+    {
+      "name": "TimerBlockSNS-chrome_ex",
+      "description": null,
+      "url": "https://github.com/maruyamayasuaki/TimerBlockSNS-chrome_ex",
+      "stars": 1,
+      "forks": 0,
+      "language": "JavaScript",
+      "updated": "2025-06-30T00:52:27Z",
+      "topics": []
+    },
+    {
+      "name": "Local_Food_Discovery",
+      "description": null,
+      "url": "https://github.com/maruyamayasuaki/Local_Food_Discovery",
+      "stars": 1,
+      "forks": 0,
+      "language": "Ruby",
+      "updated": "2025-06-29T14:12:37Z",
+      "topics": []
+    },
+    {
+      "name": "Starbucks_map_app",
+      "description": null,
+      "url": "https://github.com/maruyamayasuaki/Starbucks_map_app",
+      "stars": 1,
+      "forks": 0,
+      "language": "Kotlin",
+      "updated": "2026-04-02T05:57:15Z",
+      "topics": []
+    },
+    {
+      "name": "Todo_app",
+      "description": null,
+      "url": "https://github.com/maruyamayasuaki/Todo_app",
+      "stars": 1,
+      "forks": 0,
+      "language": "Kotlin",
+      "updated": "2025-06-09T08:07:04Z",
+      "topics": []
+    },
+    {
+      "name": "Electricity-Transformer-Temperature",
+      "description": null,
+      "url": "https://github.com/maruyamayasuaki/Electricity-Transformer-Temperature",
+      "stars": 1,
+      "forks": 0,
+      "language": "Jupyter Notebook",
+      "updated": "2024-09-13T10:39:19Z",
+      "topics": []
+    },
+    {
+      "name": "Bus_time_management",
+      "description": null,
+      "url": "https://github.com/maruyamayasuaki/Bus_time_management",
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "updated": "2026-04-07T02:59:53Z",
+      "topics": []
+    }
+  ]
+}
